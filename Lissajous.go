@@ -18,7 +18,7 @@ const (
 	blackIndex = 1 // second color in palette
 )
 
-func main() {
+func main_lissajous() {
 	lissajous(os.Stdout)
 }
 
