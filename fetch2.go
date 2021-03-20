@@ -21,6 +21,6 @@ func main() {
 			fmt.Fprint(os.Stderr, "fetch: coping %s: %v\n", url, err)
 			os.Exit(1)
 		}
-		print(b)
+		print()
 	}
 }

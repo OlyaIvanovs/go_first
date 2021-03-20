@@ -1,4 +1,4 @@
-// prints the content found at a URl
+// Prints the content found at a URl
 
 package main
 
