@@ -17,6 +17,10 @@ func main() {
 	http.HandleFunc("/", handler2)
 	http.HandleFunc("/count", counter)
 	log.Fatal(http.ListenAndServe("localhost:8000", nil))
+	handler := func(w http.ResponseWriter, r *http.Request) {
+		lissajous(w)
+	}
+	http.HandleFunc("/", handler)
 }
 
 // Echoes the Path component of the requested URL
