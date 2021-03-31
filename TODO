@@ -1,5 +1,9 @@
+31/03/2021
+- Chapter 4. Ex 4.4. Rotate version
+- Chapter 4. Ex 4.3: using array's pointer instead of slice.
+
 30/03/2021
-- Chapter 4. Ex4-2. SHA256, SHA384 and SHA512
+- Chapter 4. Ex4-2. SHA256, SHA384 and SHA512.Slices.
 
 29/03/2021
 - Chapter 4. Function counts the number of bits different in 2 SHA256 hashes
